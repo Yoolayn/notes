@@ -1,4 +1,4 @@
-#+title: Jezyki Programowania 2
+#+title: Jezyki Programowania
 
 * inforamacje wstępne
 ** potrzebne programy
@@ -10,7 +10,20 @@
 + let - zmienna o zmiennym typie
 + const - niezmienna zmienna kek
 ** funkcje
-+ console.log() - basically print w konsoli
++ console.log() - print w konsoli
+*** if
+#+begin_src javascript
+if ( condition ) {
+    "do when true"
+} else {
+    "do when false"
+}
+#+end_src
+*** for loop
+#+begin_src javascript
+for ( declare variable; condition; variable change ) {
+    "do in loop"
+}
 ** informacje
 + język słabo typowany - zmienna nie mają stałego typu
 + średniki nie są potrzebne
