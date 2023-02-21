@@ -1,0 +1,52 @@
+#+title: Algebra Liniowa
+#+OPTIONS: tex:t
+
+* Informacje wstępne
+** Godzina rozpoczęcia
+12:15
+
+** ocena
++ 2 kolokwia warte 80% łącznie
++ zadania domowe 10%
++ aktywność na ćwiczeniach 10%
+*** zdanie
+51% na 3.0
+*** podejście do zaliczenia
+pozytywna ocena z ćwiczeń jest wymagana
+
+** nieobecności
+max 3 nieobecności
+
+* Liczby zespolone
+** Co to?
+Liczby zespolone to połączenie liczby rzeczywistej z urojoną w parę
+** Własności działań na liczbach zespolonych:
++ przemienność dodawania
++ łączność dodawania
++ przemienność mnożenia
++ zero zespolone: {istnieje takie z_0, dla każdego z = 0, że z + z_0 = z}
++ łączność mnożenia
++ jedynak zespolona: {istnieje takie z_0, dla każdego z = 1, że z + z_0 = z}
++ rozdzielność mnożenia
+*** przykłady:
+**** dodawnie zespolone
+(a, b) + (c, d) = (a+c, b+d) = (c+a, d+b)
+**** zero zespolone
+(a, b)\mod(0, 0) = (a + 0, b + 0)
+**** jedynka zespolona
+$(a, b)\oplus(1, 0) = (a*1- b*0, a*0 + b*1)$
+** potęgowanie liczb zespolonych
+*** przykłady
++ i^1 = i = (0, 1) = i
++ i^2 = i * i = (0, 1) * (0, 1) = (-1, 0) = -1
++ i^3 = i^2 * i = (-1, 0) * (0, 1) = (0, -1) = -(0, -1) = -i
++ i^4 = i^3 * i = (0, -1) * (0, 1) = (1, 0) = 1
++ i^5 = i^4 * i = (1, 0) * (0, 1) = (0, 1) = i
+** postać kanoniczna
+(a + bi)
+*** gdzie:
++ a - liczba rzeczywista
++ b - liczba urojona
+
+** sprzężenie
+sprzężeniem liczby zespolonej z = a + bi, jest liczba w = a - bi

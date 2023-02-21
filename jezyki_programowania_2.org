@@ -1,0 +1,17 @@
+#+title: Jezyki Programowania 2
+
+* inforamacje wstępne
+** potrzebne programy
++ nodejs
+** hasło
++ jp2_2@23
+* informacje wstępne
+** zmienne
++ let - zmienna o zmiennym typie
++ const - niezmienna zmienna kek
+** funkcje
++ console.log() - basically print w konsoli
+** informacje
++ język słabo typowany - zmienna nie mają stałego typu
++ średniki nie są potrzebne
++ porównuje się używając `===` aby porównać wartość i typ

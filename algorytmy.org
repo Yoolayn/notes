@@ -1,0 +1,30 @@
+#+title: Algorytmy
+
+* informacje wstępne
+** kurs
++ mdl kurs: ATC-WMFI-INFP-L3DZ-(2022/2023)-ASD-wykład
++ haslo: Algorytmy23
+** zwolnienia
+zwolnienie z egzaminu z części "algorytmy", jeżeli z ćwiczeń będzie >4
+** ocena
++ 50% to egzamin z teorii
++ 50% egzamin z algorytmy
+
+* Wstęp
+** złożoność
++ jednostki czasu są umowne
++ najważniejszą częścią jest jak się zmienia czas wykonywania algorytmu wraz ze zwiększeniem danych
+** przykład analizy czasu
+*** Sortowanie przez wstawianie (Insertion sort)
+**** przykład Python
+#+begin_src python
+def InsertionSort(A):
+    n = len(A)
+    for j in range (1, n):
+        pom = A[j]
+        i = j - 1
+        while i >= 0 and A[i] > pom:
+            A[i+1] = A[i]
+            i = i - 1
+        A[i+1] = pom
+#+end_src
