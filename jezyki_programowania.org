@@ -29,3 +29,64 @@ for ( declare variable; condition; variable change ) {
 + język słabo typowany - zmienna nie mają stałego typu
 + średniki nie są potrzebne
 + porównuje się używając `===` aby porównać wartość i typ
+
+* jezyki programowania 2
+** wymagania
++ linux
++ VS**** (zrobię żeby emacs działał)
++ sbt
+*** wtyczki do VS****
++ Scala Syntax (official)
+** właściwości
++ strongly typed - nie da wsadzać double do inta
++ może być parę main funkcji
+  + przy kompilacji będzie się wybierać który main ma zostać wykonany
++ Unit zbytnio nic nie zwraca
+** setup
+sbt new wpug/scala3-sbt.g8
++ rozszerzenia .scala
+** struktura startowa
+#+begin_src scala
+@main def mainProg: Unit = {
+    println("Hello World!")
+}
+#+end_src
+** start projektu
++ cd labXX
++ sbt - rozpocznie kompilacje
+** polecenia sbt
++ compile - po kazdym compile walnac reStart
++ reStart
+    reStart {values}
++ reStop
++ reStatus
+** funkcje
++ val
+  #+begin_src scala
+val napis = "Hello"
+  #+end_src
++ function
+  #+begin_src scala
+def func_name(variable:type):Return_Unit {
+    body
+}
+  #+end_src
++ println - print line
+  #+begin_src scala
+println("wiadomość")
+  #+end_src
++ if
+  #+begin_src scala
+if ( condition ) {
+    // true block
+} else {
+    // false block
+}
+  #+end_src
++ Random
+  #+begin_src scala
+val rand = scala.util.Random()
+val liczba = rand.nextInt(100) //wygeneruje liczbę w zakresie 0-100
+// można zapisać tak:
+scala.util.Random().nextInt(100)
+  #+end_src
