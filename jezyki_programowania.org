@@ -1,36 +1,6 @@
 #+title: Jezyki Programowania
 
 * jezyki programowania 1
-** inforamacje wstępne
-*** potrzebne programy
-+ nodejs
-*** hasło
-+ jp2_2@23
-** informacje wstępne
-*** zmienne
-+ let - zmienna o zmiennym typie
-+ const - niezmienna zmienna kek
-*** funkcje
-+ console.log() - print w konsoli
-**** if
-#+begin_src javascript
-if ( condition ) {
-    "do when true"
-} else {
-    "do when false"
-}
-#+end_src
-**** for loop
-#+begin_src javascript
-for ( declare variable; condition; variable change ) {
-    "do in loop"
-}
-*** informacje
-+ język słabo typowany - zmienna nie mają stałego typu
-+ średniki nie są potrzebne
-+ porównuje się używając `===` aby porównać wartość i typ
-
-* jezyki programowania 2
 ** wymagania
 + linux
 + VS**** (zrobię żeby emacs działał)
@@ -90,3 +60,33 @@ val liczba = rand.nextInt(100) //wygeneruje liczbę w zakresie 0-100
 // można zapisać tak:
 scala.util.Random().nextInt(100)
   #+end_src
+
+* jezyki programowania 2
+** informacje wstępne
+*** potrzebne programy
++ nodejs
+*** hasło
++ jp2_2@23
+** javascript basics
+*** zmienne
++ let - zmienna o zmiennym typie
++ const - niezmienna zmienna kek
+*** funkcje
++ console.log() - print w konsoli
+**** if
+#+begin_src javascript
+if ( condition ) {
+    "do when true"
+} else {
+    "do when false"
+}
+#+end_src
+**** for loop
+#+begin_src javascript
+for ( declare variable; condition; variable change ) {
+    "do in loop"
+}
+*** informacje
++ język słabo typowany - zmienna nie mają stałego typu
++ średniki nie są potrzebne
++ porównuje się używając `===` aby porównać wartość i typ
