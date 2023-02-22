@@ -1,6 +1,57 @@
 #+title: Jezyki Programowania
 
-* jezyki programowania 1
+* Jezyki programowania 1
+** Pierwszy wykład
+*** Różnica między mocnym a słabym typowaniem
++ silne typowanie
+  + wartości mają swój nie zmienny typ
+  + można używać tylko zgodnie z tym typem
++ słabe typowanie
+  + typ zmiennej zależy od kontekstu w którym jest użyty
+*** Rodzaje typowania
+**** typowanie statyczne
+identyfikator zmiennej również zapisuje typ tej zmiennej, co nie pozwala zmiany
+**** typowanie dynamiczne
+identyfikator nie zapisuje typu zmiennej
+*** wartości i zmienne w scali
+#+begin_src scala
+val wartość = "stała wartość"
+var zmienna = "zmienna wartość"
+#+end_src
+val w scali nie pozwala na zmiane wartości, kiedy var ma zmienną wartość
+*** problem zmiennych
+Zmienne wprowadzają problemy do programów, a w szczególności zmienne globalne.
+Powinno się ich jak najmniej używać. Te problemy wraz z zwiększeniem się
+programu się potęgują. Wprowadzanie większej ilości zmiennych prawdopodobnie zwiększa trudność w śledzeniu co się dzieje w kodzie
+*** paradygmaty programowania
++ imperatywne
++ deklaratywne
++ strukturalne
++ proceduralne
++ funkcyjne (aplikatywne)
++ obiektowe
+  + oparte o "klasy" lub "prototypy"
++ zdarzeniowe
++ w logice
++ ...
+*** imperatywny a funkcyjny sposób programowania
+
+| imperatywny                                            | funkcyjny                                              |
+|--------------------------------------------------------+--------------------------------------------------------|
+| Ciągi instrukcji określają sposó rozwiązania problemu  | metoda rozwiązania zależy od postaci danych            |
+| instrukcje zmieniają stan, niezbędne są zmienna        | stan nie ulega modyfikacji                             |
+| kolejność wykonywania instrukcji jest bardzo istotna   | kolejność wykonywania obliczeń jest mało istotana      |
+| główne mechanizmy obliczeniowe to podstawienie i pętla | główne mechanizmy to zastosowanie funkcji i rekurencja |
+
+*** cechy scali
++ statycznie typowana
++ zwięzła i _elegancka_ _składnia_
++ środowisko JVM
++ udane _połączenie_ programowania
+  + imperatywnego
+  + funkcyjnego
+  + obiektowego
++ duża skalowalność
 ** wymagania
 + linux
 + VS**** (zrobię żeby emacs działał)
@@ -61,7 +112,7 @@ val liczba = rand.nextInt(100) //wygeneruje liczbę w zakresie 0-100
 scala.util.Random().nextInt(100)
   #+end_src
 
-* jezyki programowania 2
+* Jezyki programowania 2
 ** informacje wstępne
 *** potrzebne programy
 + nodejs
