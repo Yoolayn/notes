@@ -1,17 +1,18 @@
 #+title: Jezyki Programowania
 
-* inforamacje wstępne
-** potrzebne programy
+* jezyki programowania 1
+** inforamacje wstępne
+*** potrzebne programy
 + nodejs
-** hasło
+*** hasło
 + jp2_2@23
-* informacje wstępne
-** zmienne
+** informacje wstępne
+*** zmienne
 + let - zmienna o zmiennym typie
 + const - niezmienna zmienna kek
-** funkcje
+*** funkcje
 + console.log() - print w konsoli
-*** if
+**** if
 #+begin_src javascript
 if ( condition ) {
     "do when true"
@@ -19,12 +20,12 @@ if ( condition ) {
     "do when false"
 }
 #+end_src
-*** for loop
+**** for loop
 #+begin_src javascript
 for ( declare variable; condition; variable change ) {
     "do in loop"
 }
-** informacje
+*** informacje
 + język słabo typowany - zmienna nie mają stałego typu
 + średniki nie są potrzebne
 + porównuje się używając `===` aby porównać wartość i typ
