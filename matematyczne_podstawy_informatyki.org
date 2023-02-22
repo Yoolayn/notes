@@ -30,7 +30,7 @@
 + konkatenację słów oznacza się przez $\times$
   + na przykład: ab $\times$ ba = abba, $\lambda$ $\times$ ab = ab
 + słowo jest podsłowem słowa
-+ zbiór wszystkich słow nad alfabetem $\Sigma$ oznacza się przez $\Sigma$*
++ zbiór wszystkich słow nad alfabetem $\Sigma$ oznacza się przez $\Sigma^*$
 *** prefixy i sufixy
 |---------+-----------------------------|
 |         | słowo: abba                 |

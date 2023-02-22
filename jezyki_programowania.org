@@ -35,13 +35,14 @@ programu się potęgują. Wprowadzanie większej ilości zmiennych prawdopodobni
 + w logice
 + ...
 *** imperatywny a funkcyjny sposób programowania
-
+|--------------------------------------------------------+--------------------------------------------------------|
 | imperatywny                                            | funkcyjny                                              |
 |--------------------------------------------------------+--------------------------------------------------------|
 | Ciągi instrukcji określają sposó rozwiązania problemu  | metoda rozwiązania zależy od postaci danych            |
 | instrukcje zmieniają stan, niezbędne są zmienna        | stan nie ulega modyfikacji                             |
 | kolejność wykonywania instrukcji jest bardzo istotna   | kolejność wykonywania obliczeń jest mało istotana      |
 | główne mechanizmy obliczeniowe to podstawienie i pętla | główne mechanizmy to zastosowanie funkcji i rekurencja |
+|--------------------------------------------------------+--------------------------------------------------------|
 
 *** cechy scali
 + statycznie typowana
@@ -137,6 +138,7 @@ if ( condition ) {
 for ( declare variable; condition; variable change ) {
     "do in loop"
 }
+#+end_src
 *** informacje
 + język słabo typowany - zmienna nie mają stałego typu
 + średniki nie są potrzebne
