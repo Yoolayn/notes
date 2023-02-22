@@ -1,0 +1,40 @@
+#+title: Matematyczne Podstawy Informatyki
+
+* Wstępne informacje
++ strona: [[https://inf.ug.edu.pl/~mdziemia][MD ziemia]]
++ email: mdziemia@inf.ug.edu.pl
++ +rozpoczęcie: 14:15+ <- oficjalnie, ale jak przyjdzie tak będzie
+** Harmonogram
++ tydzień 1 tylko wykład 1
++ tydzień 2 tylko ćwiczenia
++ tydzień 3 wykład 2
++ tydzień 4 i dalej wszystko bez zmian
+** zaliczenie
++ kolokwium na koniec
++ zaliczenie na ocenę z wykładu i ćwiczeń
++ zwolnienie z wykładu jest do ustalenia
+** literatura
++ J. Jędrzejowicz, A. Szepietowski "Języki Automaty Złożoność Obliczeniowa"
++ J. E. Hopcroft, J. D. Ulman "Introduction to automata theory, languages and computing"
+** O czym będzie ten przedmiot
++ do czego komputery
++ co to komputery
++ jakie problemy mogą rozwiązać
++ prawdopodnie dużo teorii o działaniu komputera
+* Języki formalne
+** alfabet
++ alfabet, czyli zbiór skończony i niepusty - znacza się $\Sigma$
++ symbol, element alfabetu
++ słowo, dowolny ciąg symboli
++ puste słowo oznacza się $\lambda$
++ konkatenację słów oznacza się przez $\times$
+  + na przykład: ab $\times$ ba = abba, $\lambda$ $\times$ ab = ab
++ słowo jest podsłowem słowa
++ zbiór wszystkich słow nad alfabetem $\Sigma$ oznacza się przez $\Sigma$*
+*** prefixy i sufixy
+|---------+-----------------------------|
+|         | słowo: abba                 |
+|---------+-----------------------------|
+| prefixy | $\lambda$, a, ab, abb, abba |
+| sufixy  | $\lambda$, a, ba, bba, abba |
+|---------+-----------------------------|
