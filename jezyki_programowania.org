@@ -25,7 +25,7 @@ sbt new wpug/scala3-sbt.g8
 + cd labXX
 + sbt - rozpocznie kompilacje
 ** polecenia sbt
-+ compile - po kazdym compile walnac reStart
++ compile - po kazdym compile wykonac reStart
 + reStart
     reStart {values}
 + reStop
