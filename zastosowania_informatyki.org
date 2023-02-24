@@ -1,0 +1,14 @@
+#+title: Zastosowania Informatyki
+Nazwa firmy: JIT team
+
+* Informacje organizacyjne
++ wykład zaczyna się 8:30, kończy max 10:00
++ czasem będzie na teamsach i wtedy można słuchać zdalnie albo przyjść i na projektorze będzie teams
++ ćwiczenia/warsztaty co dwa tygodnie w podziale na grupy
++ mogą być świry informatyczne (było coś o emacsie kek) - być na wszystkim
+* zaliczenie przedmiotu
++ obecność jest wymagana
++ jedna dobra prezentacja w ramach warsztatów
++ będzie lista obecność - jak się będzie podobno coś "miłego się wydarzy"?
+* zadanie
+założyć LinkedIN
