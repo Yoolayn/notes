@@ -55,7 +55,7 @@ programu się potęgują. Wprowadzanie większej ilości zmiennych prawdopodobni
 + duża skalowalność
 ** wymagania
 + linux
-+ VS**** (zrobię żeby emacs działał)
++ VS****
 + sbt
 *** wtyczki do VS****
 + Scala Syntax (official)
@@ -79,7 +79,7 @@ sbt new wpug/scala3-sbt.g8
 ** polecenia sbt
 + compile - po kazdym compile wykonac reStart
 + reStart
-    reStart {values}
+    reStart {wartości do przekazania}
 + reStop
 + reStatus
 ** funkcje
