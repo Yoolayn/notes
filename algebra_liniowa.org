@@ -24,24 +24,24 @@ Liczby zespolone to połączenie liczby rzeczywistej z urojoną w parę
 + przemienność dodawania
 + łączność dodawania
 + przemienność mnożenia
-+ zero zespolone: {istnieje takie z_0, dla każdego z = 0, że z + z_0 = z}
++ zero zespolone: {istnieje takie $z_0$, dla każdego z = 0, że z + $z_0$ = z}
 + łączność mnożenia
-+ jedynak zespolona: {istnieje takie z_0, dla każdego z = 1, że z + z_0 = z}
++ jedynak zespolona: {istnieje takie $z_0$, dla każdego z = 1, że z + $z_0$ = z}
 + rozdzielność mnożenia
 *** przykłady:
 **** dodawnie zespolone
-(a, b) + (c, d) = (a+c, b+d) = (c+a, d+b)
+$(a, b) + (c, d) = (a+c, b+d) = (c+a, d+b)$
 **** zero zespolone
-(a, b)\mod(0, 0) = (a + 0, b + 0)
+$(a, b)\mod(0, 0) = (a + 0, b + 0)$
 **** jedynka zespolona
 $(a, b)\oplus(1, 0) = (a*1- b*0, a*0 + b*1)$
 ** potęgowanie liczb zespolonych
 *** przykłady
-+ i^1 = i = (0, 1) = i
-+ i^2 = i * i = (0, 1) * (0, 1) = (-1, 0) = -1
-+ i^3 = i^2 * i = (-1, 0) * (0, 1) = (0, -1) = -(0, -1) = -i
-+ i^4 = i^3 * i = (0, -1) * (0, 1) = (1, 0) = 1
-+ i^5 = i^4 * i = (1, 0) * (0, 1) = (0, 1) = i
++ $i^1 = i = (0, 1) = i$
++ $i^2 = i * i = (0, 1) * (0, 1) = (-1, 0) = -1$
++ $i^3 = i^2 * i = (-1, 0) * (0, 1) = (0, -1) = -(0, -1) = -i$
++ $i^4 = i^3 * i = (0, -1) * (0, 1) = (1, 0) = 1$
++ $i^5 = i^4 * i = (1, 0) * (0, 1) = (0, 1) = i$
 ** postać kanoniczna
 (a + bi)
 *** gdzie:
