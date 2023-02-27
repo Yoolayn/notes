@@ -50,3 +50,23 @@ $(a, b)\oplus(1, 0) = (a*1- b*0, a*0 + b*1)$
 
 ** sprzężenie
 sprzężeniem liczby zespolonej z = a + bi, jest liczba w = a - bi
+
+* Moduł z liczby zespolonej
+** Jak się oblicza?
+moduł liczby zespolonej a+bi oblicza sie: $|a+bi| = sqrt{a^2+b^2}$
+** twierdzenie (Własności modułu)
+jeżeli $z, w \in C$
+1. $|z| = sqrt{z*\overline{z}}
+2.
+3.
+** czym jest geometrycznie moduł $|z - z_0|$?
+1. $2 <= |z - (1 + 3i)| <= 4$
+    w tym przykładzie trzeba narywać koła o promieniu 2 i 4, i wynikiem będzie przedział między tymi kołami
+2. $|z - 1| <= Im(z) + 2$
+    $|x + iy - 1| <= Im(x + iy) + 2$
+    $|(x - 1) + iy| <= y + 2$
+    $\frac{(x - 1)^2 - 4}{4} <= y$ -- wychodzi parabola, którą trzeba narysować
+** Wzór do Moivre'a
+Jeśli z = |z|(\cos\alpha + i * \sin\alpha) i n jest liczbą całkowitą, to
+$$z^n = |z|^n(\cos n\alpha + i\sin m\alpha$$
+gdzie z \not= 0

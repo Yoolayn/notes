@@ -1,7 +1,7 @@
 #+title: Algorytmy
 * Praca domowa
 + za tydzień, 10.30
-+ można oddać tydzień później ale mnie punktów
++ można oddać tydzień później ale mniej punktów
 + [[https://inf.ug.edu.pl/~rziemann/alg23gr3.html
 ][rziemann]]
 
@@ -33,3 +33,6 @@ def InsertionSort(A):
             i = i - 1
         A[i+1] = pom
 #+end_src
+* sortowanie
+** insert sort
+** heap sort (sortowanie przez kopcowanie)
