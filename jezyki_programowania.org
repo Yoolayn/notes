@@ -78,8 +78,8 @@ sbt new wpug/scala3-sbt.g8
 + sbt - rozpocznie kompilacje
 + sbt new wpug/scala3-sbt.g8
 ** polecenia sbt
-+ compile - po kazdym compile wykonac reStart
-+ run - odpalanie kodu po kompilacji
++ compile
++ run
 + reStart {wartości do przekazania}
 + reStop
 + reStatus
