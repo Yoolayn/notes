@@ -76,10 +76,11 @@ sbt new wpug/scala3-sbt.g8
 ** start projektu
 + cd labXX
 + sbt - rozpocznie kompilacje
++ sbt new wpug/scala3-sbt.g8
 ** polecenia sbt
-+ compile - po kazdym compile wykonac reStart
-+ reStart
-    reStart {wartości do przekazania}
++ compile
++ run
++ reStart {wartości do przekazania}
 + reStop
 + reStatus
 ** funkcje
@@ -93,6 +94,8 @@ def func_name(variable:type):Return_Unit {
     body
 }
   #+end_src
+  oznaczenie zwracanej jednostki nie jest wymagane, scala może sama to znaleźć
+  jest natomiast zalecane, aby jednak definiować wartość zwracaną
 + println - print line
   #+begin_src scala
 println("wiadomość")
@@ -100,9 +103,9 @@ println("wiadomość")
 + if
   #+begin_src scala
 if ( condition ) {
-    // true block
+    // true
 } else {
-    // false block
+    // false
 }
   #+end_src
 + Random
