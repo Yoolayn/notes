@@ -51,11 +51,11 @@ $(a, b)\oplus(1, 0) = (a*1- b*0, a*0 + b*1)$
 ** sprzężenie
 sprzężeniem liczby zespolonej z = a + bi, jest liczba w = a - bi
 
-* Moduł z liczby zespolonej
-** Jak się oblicza?
+* moduł z liczby zespolonej
+** jak się oblicza?
 moduł liczby zespolonej a+bi oblicza sie: $|a+bi| = \sqrt{a^2+b^2}$
-** twierdzenie (Własności modułu)
-jeżeli $z, w \in C$
+** twierdzenie (własności modułu)
+jeżeli $z, w \in c$
 1. $|z| = \sqrt{z*\overline{z}}$
 2.
 3.
