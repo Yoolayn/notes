@@ -2,8 +2,7 @@
 * Praca domowa
 + za tydzień, 10.30
 + można oddać tydzień później ale mniej punktów
-+ [[https://inf.ug.edu.pl/~rziemann/alg23gr3.html
-][rziemann]]
++ [[https://inf.ug.edu.pl/~rziemann/alg23gr3.html][rziemann]]
 
 * informacje wstępne
 ** kurs
