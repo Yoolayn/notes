@@ -38,3 +38,8 @@
 | prefixy | $\lambda$, a, ab, abb, abba |
 | sufixy  | $\lambda$, a, ba, bba, abba |
 |---------+-----------------------------|
+* Automaty
+** z czego składa się automat skończony?
++ stanuw kuuuuuuuurwaaaaaaaa
++ stanu początkowego i stanów akceptujących
++ przejść pomiędzy stanami z literami z alfabetu bruh
